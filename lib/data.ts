@@ -35,52 +35,55 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "High School",
+    location: "Himachal Pradesh,India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I have completed my high school from Dayanand Adarsh Vidyalaya Solan.My major was Non-medical.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "University Graduated",
+    location: "Himachal Pradesh University,India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I am about to complete my graduation in 2024 .I studied computer science and learnt a lot new technologies which i have mentioned in my projects section.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2019 - 2024",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "India",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Bloggy",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this  project. Users can post their blogs and can get a response through comments,It has features like filtering, sorting and pagination.",
+    tags: ["React", "Next.js", "MongoDB", "Prisma"],
+    imageUrl:"/blog.png",
+    deployed:"https://my-next-blog-kohl.vercel.app",
   },
   {
-    title: "rmtDev",
+    title: "Foody",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "I worked as a full-stack developer on this  project. Users can order snacks of their taste through Foddy.Implemeted a payment gateway using Stripe. ",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind","Prisma","Postgresql","Zutstand"],
+    imageUrl:"/burger.png",
+    deployed:"https://restaurant-dwxj.vercel.app/",
   },
   {
-    title: "Word Analytics",
+    title: "Megamart",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A I worked as a Frontend developer in this project .I basically just created the UI and implemented features like Filtering,Sorting",
+    tags: ["React","Redux"],
+    imageUrl: "/mart.png",
+    deployed:"https://friendly-gelato-aa70c3.netlify.app/",
   },
 ] as const;
 
@@ -101,7 +104,5 @@ export const skillsData = [
   "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
