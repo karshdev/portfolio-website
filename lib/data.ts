@@ -75,7 +75,7 @@ export const projectsData = [
       "I worked as a full-stack developer on this  project. Users can order snacks of their taste through Foddy.Implemeted a payment gateway using Stripe. ",
     tags: ["React", "TypeScript", "Next.js", "Tailwind","Prisma","Postgresql","Zutstand"],
     imageUrl:"/burger.png",
-    deployed:"https://restaurant-dwxj.vercel.app/",
+    deployed:"https://restaurant-liart-six.vercel.app/",
   },
   {
     title: "Megamart",
