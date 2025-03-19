@@ -7,6 +7,20 @@ import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
   const { ref } = useSectionInView("About");
+  const youtubeVideoId="CF6cgJnr57E?si=QoiSqhjbJ8v_cwqg"
+  // Function to extract video ID from different YouTube URL formats
+  const getYouTubeVideoId = (url:string) => {
+    if (!url) return youtubeVideoId;
+    
+    const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+    const match = url.match(regExp);
+    
+    return (match && match[2].length === 11)
+      ? match[2]
+      : youtubeVideoId;
+  };
+
+  const videoId = getYouTubeVideoId(youtubeVideoId);
 
   return (
     <motion.section
@@ -18,6 +32,17 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
+      
+      <div className="aspect-video w-full mb-8">
+        <iframe 
+          className="w-full h-full rounded-lg shadow-md"
+          src={`https://www.youtube.com/embed/${videoId}`}
+          title="My Intro Video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </div>
+      
       <p className="mb-3">
         After completing my high school{" 2019 "}
         , I decided to pursue my

@@ -40,21 +40,37 @@ export const experiencesData = [
     description:
       "I have completed my high school from Dayanand Adarsh Vidyalaya Solan.My major was Non-medical.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2017",
   },
   {
     title: "University Graduated",
     location: "Himachal Pradesh University,India",
     description:
-      "I am about to complete my graduation in 2024 .I studied computer science and learnt a lot new technologies which i have mentioned in my projects section.",
+      "I am about to complete my graduation in 2021 .I studied computer science and learnt a lot new technologies which i have mentioned in my projects section.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2024",
+    date: "2017 - 2021",
   },
   {
     title: "Full-Stack Developer",
-    location: "India",
+    location: "Pune",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm worked as a full-stack Nextjs developer for an organisation named trident-technorats fr 6 months. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB",
+    icon: React.createElement(FaReact),
+    date: "2021 - 2021",
+  },
+  {
+    title: "Associate Full-Stack Developer",
+    location: "Chandigarh",
+    description:
+      "I worked in a early startup called 75 Way technology for 2 years, got a great learning there and they made me a good team player working in teams",
+    icon: React.createElement(FaReact),
+    date: "2021 - 2024",
+  },
+  {
+    title: "Full-Stack Developer",
+    location: "Remote",
+    description:
+      "I'm now a full-stack developer working as a freelancer",
     icon: React.createElement(FaReact),
     date: "2024 - present",
   },
@@ -62,28 +78,36 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Bloggy",
+    title: "AI Interview Tool",
     description:
-      "I worked as a full-stack developer on this  project. Users can post their blogs and can get a response through comments,It has features like filtering, sorting and pagination.",
-    tags: ["React", "Next.js", "MongoDB", "Prisma"],
-    imageUrl:"/blog.png",
-    deployed:"https://my-next-blog-kohl.vercel.app",
+      "I worked as a full-stack NextJs developer on this  project. Users can select the category to which they want to give interview of , an AI agent will take interview",
+    tags: ["Next.js", "MongoDB" ,"Open-AI"],
+    imageUrl:"/ai-interview.png",
+    deployed:"https://youtu.be/NLxKJ8Iaf58?si=6nhBEYiTDPdkZze8",
   },
   {
-    title: "Foody",
+    title: "Gradial",
     description:
-      "I worked as a full-stack developer on this  project. Users can order snacks of their taste through Foddy.Implemeted a payment gateway using Stripe. ",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind","Prisma","Postgresql","Zutstand"],
-    imageUrl:"/burger.png",
-    deployed:"https://restaurant-liart-six.vercel.app/",
+      "I worked as a full stack developer , Data is driven through Contentful-CMS using GrpahQL API's , Seattle startup Gradial raises $13M for AI marketing tech that automates content operations",
+    tags: ["React", "TypeScript", "SCSS", "Contentfull CMS"],
+    imageUrl:"/gradial-ai.png",
+    deployed:"https:/gradial.ai",
   },
   {
-    title: "Megamart",
+    title: "Popup Audio",
     description:
-      "A I worked as a Frontend developer in this project .I basically just created the UI and implemented features like Filtering,Sorting",
-    tags: ["React","Redux"],
-    imageUrl: "/mart.png",
-    deployed:"https://friendly-gelato-aa70c3.netlify.app/",
+      "A I worked as a Full satck React Native developer . basically a audio sharing app in which user can join and host the event , Also added stripe integration",
+    tags: ["React Native","Agora API's" , "Firebase"],
+    imageUrl: "/popupaudio.png",
+    deployed:"https://apps.apple.com/au/app/popup-audio/id1601759961",
+  },
+  {
+    title: "Montreal Tires",
+    description:
+      "A I worked as a Full satck NextJs  developer . US- based - tires showcasing website with filters applied",
+    tags: ["NextJs"],
+    imageUrl: "/montreal-tire.png",
+    deployed:"https://montrealtire.us",
   },
 ] as const;
 
@@ -92,11 +116,13 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Contentfull CMS",
   "React",
   "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
+  "SCSS",
   "Prisma",
   "MongoDB",
   "Redux",
@@ -104,4 +130,5 @@ export const skillsData = [
   "Express",
   "PostgreSQL",
   "Framer Motion",
+  "GSAP"
 ] as const;

@@ -66,7 +66,7 @@ export default function Intro() {
        Hello! I'm <span className="font-bold">Aakarsh</span>, a passionate and innovative software developer with a deep love for creating <span className="font-bold underline">elegant, efficient, and user-friendly software solutions.</span> My journey in the world of programming began <span className="italic">3 years ago</span>, and I've been on an exciting adventure ever since.
        <span className="font-bold">My expertise include 
        </span>
-       <span className="underline"> React & Next.js</span>
+       <span className="underline">&nbsp; MERN - React - Next.js & GEN AI Integration</span>
        </span>
       </motion.h1>
 
@@ -79,7 +79,8 @@ export default function Intro() {
         }}
       >
         <Link
-          href="#contact"
+          href="https://www.upwork.com/freelancers/~011a20f8c28bfa1ee5"
+          target="__blank"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
             setActiveSection("Contact");
