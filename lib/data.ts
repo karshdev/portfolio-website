@@ -91,7 +91,7 @@ export const projectsData = [
       "I worked as a full stack developer , Data is driven through Contentful-CMS using GrpahQL API's , Seattle startup Gradial raises $13M for AI marketing tech that automates content operations",
     tags: ["React", "TypeScript", "SCSS", "Contentfull CMS"],
     imageUrl:"/gradial-ai.png",
-    deployed:"https:/gradial.ai",
+    deployed:"https://gradial.ai",
   },
   {
     title: "Popup Audio",

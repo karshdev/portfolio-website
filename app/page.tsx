@@ -15,8 +15,7 @@ export default function Home() {
       <About />
       <Projects />
       <Skills />
-      <Reviews videoPath="/atharv-sir-review.mp4"  />
-
+      <Reviews videoPaths={["/atharv-sir-review.mp4", "/Candice.mp4"]} />
       <Experience />
       <Contact />
     </main>
