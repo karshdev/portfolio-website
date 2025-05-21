@@ -117,10 +117,13 @@ export default function Reviews({
     });
 
     // Play the active video if set
-    if (activeVideo !== null && videoRefs.current[activeVideo]) {
-      videoRefs.current[activeVideo].play().catch((error: Error) => {
-        console.log("Video play error:", error);
-      });
+    if (activeVideo !== null) {
+      const videoRef = videoRefs.current[activeVideo];
+      if (videoRef) {
+        videoRef.play().catch((error: Error) => {
+          console.log("Video play error:", error);
+        });
+      }
     }
   }, [activeVideo]);
 
